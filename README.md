@@ -5,10 +5,10 @@ Greed is a game in which the player seeks to gather as many falling gems as poss
 ## Rules
 Greed is played according to the following rules.
 
-Gems (*) and rocks (o) randomly appear and fall from the top of the screen.
+Gems ( * , $$ , & ) and rocks (0) randomly appear and fall from the top of the screen.
 The player (#) can move left or right along the bottom of the screen.
-If the player touches a gem they earn a point.
-If the player touches a rock they lose a point.
+If the player touches a gem they earn 1 point for (*), and 3 points for ($$), and  2 points for (&) respectively .
+If the player touches a rock they lose 1 point.
 Gems and rocks are removed when the player touches them.
 The game continues until the player closes the window.
 
@@ -42,9 +42,9 @@ root                    (project root folder)
 * Python 3.8.0
 * Raylib Python CFFI 3.7
 
-## Authors
+## Authors & Contributions
 ---
-* Arnold Sujan Katru (kat21015@byui.edu)
-* Sandra Asamoah Adeleye (ade21006@byui.edu)
-* Marcus Blanc (bla21011@byui.edu)
-* Karrass Phiri (phi21020@byui.edu)
+* Arnold Sujan Katru (kat21015@byui.edu) - Falling Artifacts & Player Movement
+* Sandra Asamoah Adeleye (ade21006@byui.edu) - Score Manager (Collect the score and process it)
+* Marcus Blanc (bla21011@byui.edu) - Create Repository & Readme file & Removing the artifact on contact.
+* Karrass Phiri (phi21020@byui.edu) - Create Artifacts (Rocks & Gems) With different Shapes and Score values.
